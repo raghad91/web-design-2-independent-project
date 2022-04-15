@@ -63,6 +63,11 @@ img {
   text-align: center;
   display: flex;
   margin: 0 auto;
+  width: 160px;
+  height: 40px;
+  align-items: center;
+  text-align: center;
+
 }
 
 .nav {
@@ -124,6 +129,7 @@ h2 {
 }
 a{
   text-decoration: none;
+  color: #285459;
 }
 
 .effects {
@@ -142,7 +148,6 @@ a{
   text-align: center;
   background-color: #285459;
   margin: 0rem;
-  padding: 1rem;
 }
 
 .media {
