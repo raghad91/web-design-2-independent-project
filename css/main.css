@@ -66,7 +66,7 @@ div.logo {
   width: 160px;
   height: 40px;
   align-items: center;
-  transition: all 200ms linear;
+  transition: all .3s ease-in-out;
 }
 
 .bottum:hover {
@@ -153,10 +153,10 @@ h2 {
 a {
   text-decoration: none;
   color: #285459;
+  transition: all .3s ease-in-out;
 }
 
 .effects {
-  margin: auto;
   font-size: 1em;
 }
 
@@ -227,6 +227,10 @@ fieldset {
 .margin-text {
   margin: auto;
   padding: 1rem;
+}
+
+.media:hover {
+  color: #fff;
 }
 
 @media only screen and (min-width: 63em) {
