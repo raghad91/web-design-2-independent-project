@@ -7,15 +7,22 @@
   <link href="css/main.css" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/ktj3dkp.css">
   <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="/favicon-196.png">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <header class="header">
+  <ul class="skip-links">
+    <li class="skip-links"><a href="#main" aria-label="jump-to-main-content"></a></li>
+    <li class="skip-links"><a href="#nav" aria-label="jump-to-navigation"></a></li>
+  </ul>
+
+  <header role="banner" id="banner" tabindex="0">
     <div class="logo">
       <img class="logo-256" src="images/logo-256.svg" alt="logo">
       <h1>Welcome to my website!</h1>
     </div>
-    <nav role="navigation">
+    <nav role="navigation" id="navigation" tabindex="0">
       <ul class="nav">
         <li><a class="button" href="index.html">Home</a></li>
         <li><a class="button" href="About.html">About</a></li>
@@ -24,14 +31,13 @@
     </nav>
   </header>
 
-  <main class="main">
+  <main role="main" id="main" tabindex="0">
     <section class="selfie">
       <div class="banner">
         <img class="myphoto" src="images/selfie.jpg" alt="selfie">
 
-        <div class="banner1">
-          <p class="one">My job is to make your business speak for you, starting with a logo and not ending with a poster. What distinguishes us is our ability to study your business market and your potential customers , and link them to a study that enables us to produce advertising that suits you.
-As a Graphic designers we  use graphics to communicate; we can build visual concepts by hand or using software. we can use both physical and virtual forms of art to inspire, encourage, or enrich customers, we can inspire others with the beautiful designs ans we can create magic through designs.</p>
+        <div class="banner1" id="banner1" tabindex="0">
+          <p class="one">My job is to make your business speak for you, starting with a logo and not ending with a poster. What distinguishes us is our ability to study your business market and your potential customers , and link them to a study that enables us to produce advertising that suits you. As a Graphic designers we  use graphics to communicate; we can build visual concepts by hand or using software. we can use both physical and virtual forms of art to inspire, encourage, or enrich customers, we can inspire others with the beautiful designs ans we can create magic through designs.</p>
           <a class="bottum" href="Graphicdesign.html">Learn more</a>
           <img class="flower" src="images/flower.svg" alt="flower">
         </div>
@@ -39,83 +45,83 @@ As a Graphic designers we  use graphics to communicate; we can build visual conc
       </div>
     </section>
 
-    <section class="skill">
+    <section class="skill" id="skills" tabindex="0">
       <h2>Experience</h2>
       <div class="icons">
         <ul>
-        <li>
-          <i class="menu">
+          <li>
+            <i class="menu">
               <img class="menu" src="images/illustrator.png" alt="" aria-details="#illustrator">
-          </i>
-          <div class="illustrator" id="illustrator">
-            <h3 class="effects">Illustrator</h3>
-          </div>
+            </i>
+            <div class="illustrator" id="illustrator">
+              <h3 class="effects">Illustrator</h3>
+            </div>
 
-          <li>
-            <i class="menu" id="indesign">
+            <li>
+              <i class="menu" id="indesign">
                 <img class="menu" src="images/indesign.png" alt="" aria-details="#indesign">
-            </i>
-            <h3 class="effects">Indesign</h3>
-          </li>
+              </i>
+              <h3 class="effects">Indesign</h3>
+            </li>
 
-          <li>
-            <i class="menu" id="photoshop">
+            <li>
+              <i class="menu" id="photoshop">
                 <img class="menu" src="images/photoshop.png" alt="" aria-details="#photoshop">
-            </i>
+              </i>
 
-            <div class="photoshop">
-              <h3 class="effects">Photoshop</h3>
-            </div>
+              <div class="photoshop">
+                <h3 class="effects">Photoshop</h3>
+              </div>
 
-          <li>
-            <i class="menu" id="after-effects">
-              <img class="menu" src="images/after-effects.png" alt="" aria-details="#after-effects">
-          </i>
+              <li>
+                <i class="menu" id="after-effects">
+                  <img class="menu" src="images/after-effects.png" alt="" aria-details="#after-effects">
+                </i>
 
-            <div class="after effects">
-              <h3 class="effects">After Effects</h3>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
+                <div class="after effects">
+                  <h3 class="effects">After Effects</h3>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
 
-    <section class="services">
-      <h2>Soical Media</h2>
-      <div>
-        <ul class="serv">
-          <li>
-            <i>
-                <img  class="media" src="images/facebook.png" alt="" aria-details="#facebook">
-            </i>
-          </li>
+        <section class="services" id="services" tabindex="0">
+          <h2>Soical Media</h2>
+          <div>
+            <ul class="serv">
+              <li>
+                <i>
+                  <img  class="media" src="images/facebook.png" alt="" aria-details="#facebook">
+                </i>
+              </li>
 
-          <li>
-            <i>
-              <img class="media" src="images/instagram.png" alt="" aria-details="#instagram">
-            </i>
-          </li>
+              <li>
+                <i>
+                  <img class="media" src="images/instagram.png" alt="" aria-details="#instagram">
+                </i>
+              </li>
 
-          <li>
-            <i>
-              <img class="media" src="images/linkedin.png" alt="" aria-details="#linkedin">
-            </i>
-          </li>
+              <li>
+                <i>
+                  <img class="media" src="images/linkedin.png" alt="" aria-details="#linkedin">
+                </i>
+              </li>
 
-          <li>
-            <i>
-              <img class="media" src="images/twiter.png" alt="" aria-details="#twiter">
-            </i>
-          </li>
+              <li>
+                <i>
+                  <img class="media" src="images/twiter.png" alt="" aria-details="#twiter">
+                </i>
+              </li>
 
-        </ul>
-      </div>
-    </section>
-  </main>
+            </ul>
+          </div>
+        </section>
+      </main>
 
-  <footer class="content" role="contentinfo">
-    <p class="content">©2022 Raghad Hassun Design</p>
-  </footer>
+      <footer class="content" role="contentinfo" tabindex="0">
+        <p class="content">©2022 Raghad Hassun Design</p>
+      </footer>
 
-</body>
-</html>
+    </body>
+    </html>

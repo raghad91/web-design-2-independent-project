@@ -74,6 +74,7 @@ div.logo {
 
 .nav {
   display: flex;
+  font-weight: bold;
   margin: 0;
   padding: 0;
   grid-area: nav;
@@ -161,7 +162,7 @@ a {
 
 .content {
   text-align: center;
-  background-color: #285459;
+  background-color: #f2f2f2;
   margin: 0;
 }
 
@@ -219,7 +220,7 @@ fieldset {
 }
 
 
-@media only screen and (min-width: 63em)
+@media only screen and (min-width: 63em) {
 
   .banner {
     display: flex;

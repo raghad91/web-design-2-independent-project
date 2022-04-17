@@ -9,21 +9,28 @@
   <link rel="shortcut icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <header class="header">
+  <ul class="skip-links">
+      <li class="skip-links"><a href="#main" aria-label="jump-to-main-content"></a></li>
+      <li class="skip-links"><a href="#nav" aria-label="jump-to-navigation"></a></li>
+  </ul>
+
+  <header role="banner" id="banner" tabindex="0">
     <div class="logo">
       <img class="logo-256" src="images/logo-256.svg" alt="logo">
       <h1>Welcome to my website!</h1>
     </div>
-    <nav role="navigation">
+    <nav role="navigation" id="navigation" tabindex="0">
       <ul class="nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="About.html">About</a></li>
-        <li><a href="Graphicdesign.html">Graphic Design</a></li>
+        <li><a class="button" href="index.html">Home</a></li>
+        <li><a class="button" href="About.html">About</a></li>
+        <li><a class="button" href="Graphicdesign.html">Graphic Design</a></li>
       </ul>
     </nav>
   </header>
-  <main class="About">
+
+  <main role="main" id="main" tabindex="0">
     <section class="about">
       <div class="banner">
         <img class="myimage" src="images/myimage.jpg" alt="selfie">
@@ -35,7 +42,6 @@
       </div>
     </section>
 
-    <main role="main" id="main" tabindex="0">
     <section>
       <div class="intro">
         <h4 class="chat">chat with us!</h4>
@@ -74,8 +80,8 @@
 
         </div>
       </section>
+    </main>
 
-
-  <footer class="content" role="contentinfo">
-    <p class="content">©2022 Raghad Hassun Design.</p>
+  <footer class="content" role="contentinfo" tabindex="0">
+    <p class="content">©2022 Raghad Hassun Design</p>
   </footer>
