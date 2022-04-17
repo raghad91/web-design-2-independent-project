@@ -22,15 +22,15 @@ html {
 
 /*
 nav ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-  max-width: 28rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  margin: 0;
-  font-size: 1.5rem;
-  border-radius: .3rem;
+list-style-type: none;
+display: flex;
+justify-content: space-around;
+max-width: 28rem;
+padding-top: 2rem;
+padding-bottom: 2rem;
+margin: 0;
+font-size: 1.5rem;
+border-radius: .3rem;
 }
 */
 
@@ -44,7 +44,7 @@ div.logo {
   padding: 1em;
   width: auto;
   background: #f2f2f2;
-  margin: 0%
+  margin: 0%;
 }
 
 .banner {
@@ -174,12 +174,13 @@ a {
 .serv {
   background-color: #7ba6a1;
 }
+
 /*
 h3 {
-  text-align: center;
-  background-color: #f2f2f2;
-  margin: 0rem;
-  padding: 1rem;
+text-align: center;
+background-color: #f2f2f2;
+margin: 0rem;
+padding: 1rem;
 } */
 
 fieldset {
@@ -219,7 +220,6 @@ fieldset {
   padding: 1rem;
 }
 
-
 @media only screen and (min-width: 63em) {
 
   .banner {
@@ -233,7 +233,7 @@ fieldset {
   }
 
   .one {
-    margin-top: 0em;
+    margin-top: 0;
   }
 
   .bottum {
