@@ -118,6 +118,7 @@ ul {
 a:hover {
   color: #d9c1c5;
 }
+
 .menu {
   height: 50px;
   width: 50px;
@@ -141,7 +142,7 @@ h2 {
   padding: 1em;
 }
 
-a{
+a {
   text-decoration: none;
   color: #285459;
 }
@@ -172,7 +173,7 @@ a{
 .serv {
   background-color: #7ba6a1;
 }
-/* 
+/*
 h3 {
   text-align: center;
   background-color: #f2f2f2;
@@ -218,11 +219,13 @@ fieldset {
 }
 
 
-@media only screen and (min-width: 63em) {
-  .banner{
+@media only screen and (min-width: 63em)
+
+  .banner {
     display: flex;
     flex-direction: row;
   }
+
   .banner1 {
     margin: 1em;
     margin-top: 0;
