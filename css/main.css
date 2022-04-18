@@ -63,6 +63,7 @@ div.logo {
   justify-content: center;
   text-align: center;
   display: flex;
+  font-weight: bold;
   margin: 0 auto;
   width: 160px;
   height: 40px;
