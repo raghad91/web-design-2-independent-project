@@ -57,7 +57,8 @@ div.logo {
 
 .bottum {
   border: 2px solid #fff;
-  color: #000;
+  background-color: #f2f2f2;
+  color: #285459;
   text-decoration: none;
   padding: 1em;
   justify-content: center;
